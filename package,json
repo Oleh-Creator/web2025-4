@@ -1,0 +1,20 @@
+{
+  "name": "web2025-4",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Roman Novodvorskyi",
+  "license": "ISC",
+  "description": "Simple web server for converting JSON to XML",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
